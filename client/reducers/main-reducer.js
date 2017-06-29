@@ -4,11 +4,13 @@ import { combineReducers } from 'redux'
 import { localContext } from './static-actions-reducer';
 import { coursesContext } from './courses-reducer';
 import { courseContext } from './course-view-reducer';
+import { lectureContext } from './lecture-reducer';
 
 const reducer = combineReducers({
   localContext,
   coursesContext,
-  courseContext
+  courseContext,
+  lectureContext
 });
 
 export { reducer };
